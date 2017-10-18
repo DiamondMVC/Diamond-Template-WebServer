@@ -1,0 +1,22 @@
+@*
+  Copyright © DiamondMVC 2016-2017
+  License: MIT (https://github.com/DiamondMVC/Diamond-Template-WebServer/blob/master/LICENSE)
+  Author: Jacob Jensen (bausshf)
+*
+@[
+  layout:
+    layout
+---
+  route:
+    home
+---
+  controller:
+    HomeController
+---
+  placeHolders:
+    [
+	  "title": "Home"
+	]
+]
+
+<p>Hello Diamond!</p>

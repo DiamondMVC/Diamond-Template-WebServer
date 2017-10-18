@@ -1,0 +1,14 @@
+{
+    "name": "diamond-webserver-empty",
+    "description": "Empty project template for a web-server",
+    "authors": ["Jacob Jensen"],
+    "homepage": "https://github.com/DiamondMVC/Diamond-Template-WebServer",
+    "dependencies": {
+        "vibe-d": "~>0.8.1",
+        "diamond": "~>2.0.1"
+    },
+    "versions": ["VibeDefaultMain", "Diamond_Debug", "Diamond_WebServer"],
+    "sourcePaths": ["core", "models", "controllers"],
+    "stringImportPaths": ["views", "config"],
+    "targetType": "executable"
+}
