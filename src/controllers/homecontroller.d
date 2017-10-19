@@ -8,7 +8,7 @@ module controllers.homecontroller;
 import diamond.controllers;
 
 /// The home controller.
-final class HomeController(TView) : Controller!(TView,HomeController!TView)
+final class HomeController(TView) : Controller!TView
 {
   public:
   final:
@@ -19,7 +19,7 @@ final class HomeController(TView) : Controller!(TView,HomeController!TView)
   */
   this(TView view)
   {
-    super(view,this);
+    super(view);
   }
 
   /// Route: / | /home
