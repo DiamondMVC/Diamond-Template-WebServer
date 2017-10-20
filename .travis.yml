@@ -5,3 +5,5 @@ d:
   - dmd
   - gdc
   - ldc
+
+before_script: cd src
