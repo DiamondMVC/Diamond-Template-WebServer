@@ -9,7 +9,7 @@
     },
     "versions": ["VibeDefaultMain", "Diamond_Debug", "Diamond_WebServer"],
     "sourcePaths": ["core", "models", "controllers"],
-    "importPaths": ["core", "models", "controllers"]
+    "importPaths": ["core", "models", "controllers"],
     "stringImportPaths": ["views", "config"],
     "targetType": "executable"
 }
