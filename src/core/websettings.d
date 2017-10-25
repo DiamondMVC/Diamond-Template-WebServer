@@ -18,7 +18,7 @@ class DiamondWebSettings : WebSettings
   }
 
   public:
-  void onApplicationStart()
+  override void onApplicationStart()
   {
   }
 
