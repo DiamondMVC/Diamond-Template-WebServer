@@ -18,6 +18,10 @@ class DiamondWebSettings : WebSettings
   }
 
   public:
+  void onApplicationStart()
+  {
+  }
+
   override bool onBeforeRequest(HTTPServerRequest request, HTTPServerResponse response)
   {
     return true;
