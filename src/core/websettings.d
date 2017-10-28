@@ -3,7 +3,7 @@
 * License: MIT (https://github.com/DiamondMVC/Diamond-Template-WebServer/blob/master/LICENSE)
 * Author: Jacob Jensen (bausshf)
 */
-module core.websettings;
+module websettings;
 
 import diamond.core.websettings;
 
@@ -53,7 +53,7 @@ class DiamondWebSettings : WebSettings
   }
 }
 
-shared static this()
+void initializeWebSettings()
 {
   webSettings = new DiamondWebSettings;
 }
