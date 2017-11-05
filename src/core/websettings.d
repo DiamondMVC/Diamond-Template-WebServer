@@ -36,9 +36,7 @@ class DiamondWebSettings : WebSettings
   override void onHttpError(Throwable thrownError, HTTPServerRequest request,
     HTTPServerResponse response, HTTPServerErrorInfo error)
   {
-    import std.conv : to;
-
-    response.bodyWriter.write(to!string(thrownError));
+    response.bodyWriter.write(thrownError.toString());
   }
 
   override void onNotFound(HTTPServerRequest request, HTTPServerResponse response)
